@@ -4,3 +4,19 @@ public class Student {
     private String email;
     private float cgpa;
 }
+
+
+public long getId(){
+    return id;
+} 
+public void setId(Long id){
+    this.id = id;
+
+}
+public String getname(){
+    return name ;
+
+}
+public void getname(String name){
+    
+}
