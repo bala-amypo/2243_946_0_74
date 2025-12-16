@@ -1,3 +1,5 @@
+impory jakarta.persistance.*; 
+
 public class Student {
     private long id;
     private String name;
@@ -18,5 +20,22 @@ public String getname(){
 
 }
 public void getname(String name){
-    
+    this.name = name ;
 }
+public String getemal(){
+    return email;
+
+}
+public void getemail(String email){
+    this.email=email;
+}
+
+
+public float getcgpa(){
+    return cgpa;
+}
+public void getcgpa(float cgpa ){
+    this.cgpa=cgpa;
+}
+
+public student ()
