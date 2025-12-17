@@ -1,12 +1,11 @@
 import jakarta.persistence.*; 
 
+@Entity
 public class Student {
     private long id;
     private String name;
     private String email;
     private float cgpa;
-
-
 
 public long getId(){
     return id;
