@@ -1,11 +1,11 @@
-impory jakarta.persistance.*; 
+import jakarta.persistance.*; 
 
 public class Student {
     private long id;
     private String name;
     private String email;
     private float cgpa;
-}
+
 
 
 public long getId(){
@@ -43,4 +43,5 @@ public student (Long id,String name,String email,float cgpa){
     this.name =name;
     this.email=email;
     this.cgpa=cgpa;
+}
 }
