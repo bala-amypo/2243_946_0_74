@@ -1,4 +1,4 @@
-import jakarta.persistance.*; 
+import jakarta.persistence.*; 
 
 public class Student {
     private long id;
@@ -38,10 +38,12 @@ public void getcgpa(float cgpa ){
     this.cgpa=cgpa;
 }
 
-public student (Long id,String name,String email,float cgpa){
+public Student (Long id,String name,String email,float cgpa){
     this.id=id;
     this.name =name;
     this.email=email;
     this.cgpa=cgpa;
 }
+
+public Student(){}
 }
