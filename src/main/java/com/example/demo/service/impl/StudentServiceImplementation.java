@@ -20,11 +20,11 @@ public class StudentServiceImplementation implements StudentService {
     }
 
     @Override
-    public List<Student> getAllStudents(){
+    public List<Student> getAllStudent(){
         return repo.findAll();
     }
     @Override
-    public Optional<Student> getStudents(int id){
+    public Optional<Student> getStudent(int id){
         return repo.findById(id);
     }
 
